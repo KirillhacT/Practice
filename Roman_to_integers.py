@@ -43,8 +43,6 @@ def romanToInt2():
             result -= roman[s[i]]
         else:
             result += roman[s[i]]
-print(romanToInt2())
-
-
+# print(romanToInt2())
 
 
