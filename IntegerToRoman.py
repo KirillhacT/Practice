@@ -29,7 +29,7 @@ for i in hash:
         max = 0
         min = 0
         for j in symbols:
-            if j > max and j < hash[i]:
+            if j > max and j < hash[i]: 
                 max = j
         for k in symbols:
             if k > min and max + k <= hash[i]:
